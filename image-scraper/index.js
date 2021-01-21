@@ -5,7 +5,7 @@ const axios = require('axios').default;
 const { v4: uuidv4 } = require('uuid');
 
 const PLANT_NAME = 'aloe';
-const NUMBER_OF_IMAGES = 500;
+const NUMBER_OF_IMAGES = 200;
 
 const createPathIfNotExist = (path) => {
   if (!fs.existsSync(path)) {
